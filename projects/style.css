@@ -1,0 +1,52 @@
+body {
+  background-color: #eee;
+}
+#container {
+  margin: 1% 30%;
+  border: 1px solid;
+  border-radius: 1em;
+}
+.table-container {
+  display: flex;
+  margin: 1%;
+}
+.table {
+  flex: 1;
+  text-align: center;
+}
+.card {
+  font-size: 5em;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
+  border-radius: 0.25em;
+  margin: 1%;
+  height: 120px;
+}
+.log {
+  font-size: 1em;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
+  margin: 1%;
+  height: 120px;
+}
+.button-container {
+  display: flex;
+  margin: 10px;
+}
+.button {
+  flex: 1;
+  text-align: center;
+  font-size: 2em;
+  height: 3em;
+  margin: 1%;
+}
+.winner {
+  background-color: green;
+}
+.loser {
+  background-color: red;
+}
+.draw {
+  background-color: yellow;
+}
